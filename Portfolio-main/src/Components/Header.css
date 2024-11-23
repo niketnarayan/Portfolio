@@ -1,0 +1,188 @@
+
+.text-1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  .header-btn1:hover{
+    background-color: #fc3701;
+    border-color:#ff5224;
+    cursor: pointer;
+    
+    
+  }
+  .header-btn2:hover{
+    background-color: #23272b;
+    border-color: #1d2124;
+  }
+  .fa-brands{
+    font-size: 28px;               
+    width: 50px;                   
+    height: 50px;                  
+    display: flex;                 
+    justify-content: center;       
+    align-items: center;          
+    border-radius: 50%;            
+    border: 2px solid #ff5224; 
+    color: #fc3701; 
+  }
+  .fa-brands:hover{
+    background-color: #fc3701;
+    color: white;
+  }
+ .text-circle{
+  display: flex;
+  border: #ffff 1px solid;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+  margin: 3rem auto;
+  border-radius: 4rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 4px 4px 4px 4px rgba(8, 8, 8, 0.8);
+  color: #333;
+ }
+  .content-div{
+    text-align: center;
+  }
+
+  .phot2{
+    width: 275px;
+    height: 290px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 5px 5px 5px 5px rgba(153, 153, 153, 0.8);
+    color: #fff;
+  }
+
+  .photo-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #f85a2f;
+    color: white;
+    border: 2px solid #ff5224;
+  }
+  .photo-bt:hover{
+    background-color: #fc3701;
+    border-color:#ff5224;
+    cursor: pointer; 
+  }
+  .box {
+    border: 1px solid lightgray;
+    width: 250px;
+    height: 150px;
+    transition: all 0.3s ease;
+  }
+  .box:hover {
+    background-color: #fc3701; 
+    color: white;
+    border-color: #fc3701; 
+    cursor: pointer; 
+  }
+  .box i {
+    font-size: 50px;
+    color: #fc3701;
+  }
+  .box:hover i {
+    color: white; 
+  }
+  .port-img {
+    width: 100%;
+    max-width: 350px; 
+    height: auto; 
+    border-radius: 8px; 
+    object-fit: cover; 
+    margin-bottom: 20px; 
+  }
+
+  .port-img:hover{
+    background-color: #fc3701;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .port-img {
+      max-width: 100%; 
+    }
+  }
+
+  .footer-container {
+    background-color: #004d40; /* Deep Teal */
+    color: #fff; /* White */
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .footer-top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .footer-contact, .footer-social, .footer-links {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .footer-icon {
+    font-size: 24px;
+    color: #fff; /* Match text color */
+    transition: color 0.3s ease;
+  }
+  
+  .footer-icon:hover {
+    color: #ff6f61; /* Coral for hover effect */
+  }
+  
+  .footer-link-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-link-list a {
+    color: #ffab40; /* Warm Coral for links */
+    text-decoration: none;
+  }
+  
+  .footer-link-list a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom-section {
+    border-top: 1px solid #00897b; /* Teal border */
+    padding-top: 20px;
+  }
+  
+
+
+
+
+
+
+
+  .custom-modal-style .modal-content {
+    background-color: #f7f7f7; /* Background color for modal */
+    border-radius: 15px; /* Make the modal corners rounded */
+    padding: 20px;
+  }
+  
+  .custom-modal-style .modal-header, .custom-modal-style .modal-footer {
+    border: none; /* Remove default borders */
+    background-color: #343a40; /* Custom background for header and footer */
+    color: white;
+  }
+  
+  .custom-modal-style .modal-title {
+    font-weight: bold;
+  }
+  
